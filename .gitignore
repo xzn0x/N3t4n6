@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+ENV/
+
+# Pyshark / Wireshark temporary files
+.pyshark/
+
+# Project outputs
+extracted_artifacts/
+
+# Captures (usually too large for git, or contain sensitive data)
+*.pcap
+*.pcapng
+!test_capture.pcap
