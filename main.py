@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-N3t4n6 — Automated Network Forensics & Protocol Analyzer.
+NetForensics — Automated Network Forensics & Protocol Analyzer.
 
 Entry-point CLI that orchestrates the full analysis pipeline:
   Phase 1 – Engine Initialisation & Triage
@@ -47,7 +47,7 @@ def build_argparser() -> argparse.ArgumentParser:
         A fully configured ``argparse.ArgumentParser``.
     """
     parser = argparse.ArgumentParser(
-        prog="n3t4n6",
+        prog="N3t4n6",
         description=(
             "Automated Network Forensics & Protocol Analyzer  —  "
             "Ingest PCAP/PCAPNG files, triage traffic, decode hidden "
