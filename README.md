@@ -1,6 +1,6 @@
-# NetForensics — Automated Network Forensics & Protocol Analyzer
+# N3t4n6 — Automated Network Forensics & Protocol Analyzer
 
-NetForensics is a Command-Line Interface (CLI) tool designed to ingest PCAP/PCAPNG files, automate the triage process for CTF network challenges, decode hidden payloads, extract malicious or suspicious artifacts, and highlight potential threats. 
+N3t4n6 is a Command-Line Interface (CLI) tool designed to ingest PCAP/PCAPNG files, automate the triage process for CTF network challenges, decode hidden payloads, extract malicious or suspicious artifacts, and highlight potential threats. 
 
 The project is built with Python 3, using `pyshark` for robust packet parsing (leveraging Wireshark's native protocol dissectors) and `rich` for an interactive, visually stunning terminal UI.
 
